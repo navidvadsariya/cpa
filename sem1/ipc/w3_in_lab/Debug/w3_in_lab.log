@@ -1,0 +1,4 @@
+﻿  temps.c
+C:\Users\navid\Dropbox\VS_Projects\ipc\w3_in_lab\temps.c(47,28): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\navid\Dropbox\VS_Projects\ipc\w3_in_lab\temps.c(48,26): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+  w3_in_lab.vcxproj -> C:\Users\navid\Dropbox\VS_Projects\ipc\w3_in_lab\Debug\w3_in_lab.exe

@@ -1,0 +1,111 @@
+Magazine and Book Tester....
+Tester output and your output should match:
+Tester ouput------------------------------------------
+This Magazine is not set yet!
+This Book is not set yet!
+This Book is not set yet!
+Your ouput ------------------------------------------
+This Magazine is not set yet!
+This Book is not set yet!
+This Book is not set yet!
+1 1 1 1 1 1 1 1 1 1
+----------------------------------------
+Enter the following:
+C++ Journal
+2
+3
+111
+Magazine Name: C++ Journal
+Volume: 2
+Issue: 3
+Shelf Number: 111
+2 2 2 2 2 2 2 2 2 2
+----------------------------------------
+Enter the following:
+C 144
+1234567890987
+222
+Book Name: C 144
+ISBN: 1234567890987
+Shelf Number: 222
+3 3 3 3 3 3 3 3 3 3
+----------------------------------------
+Enter the following:
+C++ 244
+9876543212345
+333
+Book Name: C++ 244
+ISBN: 9876543212345
+Shelf Number: 333
+Tester output and your output should match:
+Tester ouput------------------------------------------
+Title                                    ISBN or V(I)  Shlf Lent to Ret Date
+---------------------------------------- -------------  --- -----   ----------
+C++ Journal                                     02(03)  111
+C 144                                    1234567890987  222
+C++ 244                                  9876543212345  333
+Your ouput ------------------------------------------
+Title                                    ISBN or V(I)  Shlf Lent to Ret Date
+---------------------------------------- -------------  --- -----   ----------
+C++ Journal                                     02(03)  111
+C 144                                    1234567890987  222
+C++ 244                                  9876543212345  333
+Tester output and your output should match:
+Tester ouput------------------------------------------
+Magazines cannot be checked in or out!
+Magazines cannot be checked in or out!
+Your ouput ------------------------------------------
+Magazines cannot be checked in or out!
+Magazines cannot be checked in or out!
+Enter the following:
+12345
+2019/12/25
+Entere Member id: 12345
+Enter return date: 2019/12/25
+Tester output and your output should match:
+Tester ouput------------------------------------------
+Title                                    ISBN or V(I)  Shlf Lent to Ret Date
+---------------------------------------- -------------  --- -----   ----------
+C++ Journal                                     02(03)  111
+C 144                                    1234567890987  222 12345   2019/12/24
+C++ 244                                  9876543212345  333
+Your ouput ------------------------------------------
+Title                                    ISBN or V(I)  Shlf Lent to Ret Date
+---------------------------------------- -------------  --- -----   ----------
+C++ Journal                                     02(03)  111
+C 144                                    1234567890987  222 12345   2019/12/25
+C++ 244                                  9876543212345  333
+File output test, Tester output and your output should match:
+Tester ouput------------------------------------------
+MC++ Journal    2       3       111
+BC 144  1234567890987   222     12345   2019/12/24
+BC++ 244        9876543212345   333     0
+Your ouput ------------------------------------------
+MC++ Journal    2       3       111
+BC 144  1234567890987   222     12345   2019/12/25
+BC++ 244        9876543212345   333     0
+File input test,Tester output and your output should match:
+Tester ouput------------------------------------------
+Title                                    ISBN or V(I)  Shlf Lent to Ret Date
+---------------------------------------- -------------  --- -----   ----------
+C++ Journal                                     02(03)  111
+C 144                                    1234567890987  222 12345   2019/12/24
+C++ 244                                  9876543212345  333
+Your ouput ------------------------------------------
+Title                                    ISBN or V(I)  Shlf Lent to Ret Date
+---------------------------------------- -------------  --- -----   ----------
+C++ Journal                                     02(03)  111
+C 144                                    1234567890987  222 12345   2019/12/25
+C++ 244                                  9876543212345  333
+Copy constructor and assignment test
+Tester output and your output should match:
+Tester ouput------------------------------------------
+C++ Journal                                     02(03)  111
+C++ Journal                                     02(03)  111
+C 144                                    1234567890987  222
+C 144                                    1234567890987  222
+Your ouput ------------------------------------------
+C++ Journal                                     02(03)  111
+C++ Journal                                     02(03)  111
+C 144                                    1234567890987  222
+C 144                                    1234567890987  222

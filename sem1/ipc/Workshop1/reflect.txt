@@ -1,0 +1,1 @@
+From this workshop I learned how to write, compile and run C code in visual studio. Login to matrix, move C source code to matrix, compile and run it on matrix. Also how to submit the workshop on matrix.

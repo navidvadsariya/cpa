@@ -1,0 +1,25 @@
+<html>
+<head>
+<title> Martins Home Page </title>
+</head>
+<body>
+<h1><b>Welcome to the home page of Martin</b></h1>
+<img src "C:\Users\navid\Desktop\kfc" alt="To check out other blogs like this," style="width:200px;height:43px">
+<a href="https://www.kfc.ca/">Click here</a>
+
+<h3>Martins Favourite foods</h3>
+
+<ol>
+<li>Fried Chiken</li>
+<li>Burgers</li>
+<li>Pizza</li>
+<li>Desserts</li>
+   <ul style="list-style-type:circle;">
+	<li>Cakes</li>
+	<li>Ice Cream</li>
+	<li>Pies</li>
+	</ul>
+<li>Beef Stronganoff</li>
+</ol>
+</body>
+</html>

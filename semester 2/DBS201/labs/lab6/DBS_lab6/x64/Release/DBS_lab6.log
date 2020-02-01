@@ -1,0 +1,4 @@
+﻿  databaseConnection.cpp
+  L06_136884186_vadsariya.cpp
+c1xx : fatal error C1083: Cannot open source file: 'databaseConnection.cpp': No such file or directory
+C:\Users\navid\Dropbox\sem2\DBS201\labs\lab6\DBS_lab6\L06_136884186_vadsariya.cpp(1,10): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory

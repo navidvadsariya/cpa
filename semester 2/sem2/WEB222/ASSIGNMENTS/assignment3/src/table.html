@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/lab3-theme.css" />
+        <script src="js/table.js"></script>
+	<style>
+	table, th, td {
+          border: 1px solid black;
+         }
+	</style>
+    </head>
+    <body>
+        <header>
+            <div class="center">
+                <h2>
+                    WEB222 - Assignment 3
+                </h2>
+            </div>
+        </header>
+        <nav>
+            <div class="center">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="list.html">List</a></li>
+                    <li><a href="table.html">Table</a></li>
+                    <li><a href="image.html">Image</a></li>
+                    <li><a href="audio.html">Audio</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="honesty.html">Honesty</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="main center">
+            <!-- Start your code here -->
+            <h2>HTML Tables</h2>
+		<div id="personal info">
+		 <table style="border:1px solid;">
+  <caption>Computer Programming and Analysis</caption>
+  <tr>
+    <th>Program</th>
+    <th>Courses Enrolled</th>
+    <th>Schedule</th>
+  </tr>
+  <tr>
+   <td rowspan="5">CPA</td>
+    <td>COM101</td>
+    <td>Tue 8:00</td>
+  </tr>
+  <tr>
+    <td>OOP244</td>
+    <td>Fri 10:45</td>
+  </tr>
+  <tr>
+    <td>WEB222</td>
+    <td>Tue 12:35</td>
+  </tr>
+  <tr>
+    <td>DBS201</td>
+    <td>Wed 10:45</td>
+  </tr>
+  <tr>
+    <td>DCF255</td>
+    <td>Wed 12:45</td>
+  </tr>
+</table>
+	<table>
+   <tfoot>
+	Favourite Songs    
+  </tfoot>
+  <thead>
+    <tr>
+      <th>Song Name</th>
+      <th>Artist</th>
+      <th>Length(min)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Thunder</td>
+      <td rowspan=2>Imagine Dragons</td>
+      <td>3.24</td>
+    </tr>
+    <tr>
+       <td>Natural</td>
+      <td>3.10</td>
+    </tr>
+    <tr>
+      <td>magenta riddim</td>
+      <td>Dj Snake</td>
+      <td>3.58</td>
+    </tr>
+    <tr>
+      <td>Alone</td>
+      <td>Marshmello</td>
+      <td>3.19</td>
+    </tr>
+     <tr>
+      <td>Freaks</td>
+      <td>Timmy Trumpet</td>
+      <td>2.53</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div id="users">
+<h3>User Information</h3>
+</div>
+<script src="js/table.js"></script>
+<br>
+            <!-- End your code here  -->
+        </section>
+        <footer>
+            <div class="center">
+                &copy; 2019 Navid Najarali Vadsariya
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Vadsariya</title>
+    <link rel='stylesheet' type='text/css' href='css/CSS.css' media='screen'>
+    <script src="js/JS.js"></script>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>Sign in page</h1>
+    <div class="center">
+        <form  method="post" name="signup" action="https://httpbin.org/post" onsubmit="return validateForm();">
+          
+                <label>First name</label><br>
+                <input type="text" name="first_name" required>
+                <div id="fnameError" class="error"></div><br>
+          
+           
+                <label>Last name</label><br>
+                <input type="text" name="last_name" required>
+                <div id="lnameError" class="error"></div><br>
+         
+                <label>Education Level</label><br>
+                <select required>
+                    <option selected disabled hidden></option>
+                    <option value="Technical Diploma"> Technical Diploma</option>
+                    <option value="College Diploma">College Diploma</option>
+                    <option value="Bachelor's Degree">Bachelor's Degree</option>
+                    <option value="Master's Degree">Master's Degree</option>
+                    <option value="Others">Others</option>
+                </select>
+           
+            <label><br><br>Education Status</label><br>
+            <label>
+                <input type="radio" name="Education Status" value="Graduated" required> Graduated
+            </label>
+            <label>
+                <input type="radio" name="Education Status" value="Current enrolled"> Current enrolled
+            </label>
+            <label>
+                <input type="radio" name="Education Status" value="Did not graduate"> Did not graduate<br>
+            </label>
+            
+                <label><br>Age:<br> </label>
+                 <input type="number" name="age" required>
+                    <div id="ageError" class="error"></div><br>
+               
+            
+                <label>Email</label><br>
+                <input type="email" name="email" required><br>
+          
+                <label><br>Password</label><br>
+                <input type="password" name="password" required><br><br>
+         
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+        <h3>
+            <a href="honesty.html">Back to Home page.</a>
+        </h3>
+    <div id="footer">
+        <footer>
+            &copy; 2019 Navid Najarali Vadsariya 136884186
+        </footer>
+    </div>
+</body>

@@ -1,0 +1,10 @@
+From this workshop I learned how to code a program that gets input from the user and stores it in a 
+variable. Then perform calculations and print the desired results.
+This workshop was interesting because it has calculations wherein results needs to be casted properly in 
+order to get the correct result. 
+This workshop was a bit tough because it needs proper casting and multiple input values needs to be 
+tested in order to test that the program works for different inputs and outputs the correct results.
+Converting floating values to integers will help in eliminating erroneous results (I had incorrect results 
+because of not casting a value to integer). 
+Using the modules operator code is shorter whereas using division and subtraction method code will be 
+long. Also modifying the code will be easier when using modules operator.

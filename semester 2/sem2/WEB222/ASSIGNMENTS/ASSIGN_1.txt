@@ -1,0 +1,109 @@
+
+WEB222- Assignment01:
+I declare that this assignment is my own work in accordance with Seneca Academic Policy. No part of this assignment is copied manually or electronically from any other source (including websites)or distributed to other students.
+
+NAME: NAVID VADSARIYA
+STUDENT ID: 136884186
+DATE OF SUBMISSION 27 SEPT 2019
+
+
+
+
+
+TASK 1:
+
+function formatEmailAddress(name,email){
+  var info=name+ " <" +email+ ">";
+  return info;
+}
+var userName="Kim Smythe";
+var emailID="Kims@gmail.com";
+console.log(formatEmailAddress(userName,emailID));
+
+--------------------------------------------------------------------------------------------------------
+TASK 2:
+
+function toSeconds(days){
+  var seconds = 0;
+  
+  if(days){  
+     seconds = parseInt(days);
+     seconds = (seconds * 24) *60 * 60;
+  }
+  else{
+       seconds= 24 *60 * 60;
+  }
+  return seconds;
+}
+
+console.log(toSeconds(1));
+
+--------------------------------------------------------------------------------------------------------
+TASK 3:
+ 
+var tempToKelvin = function(temp,unit){
+var kelvin = 0;
+ 
+ if(unit == "F" || unit == "f"){
+  kelvin = (temp +459.67) * 5/9;
+ }
+
+ else if(unit == "C" || unit == "c" || !unit){
+  kelvin = temp + 273.15;
+  
+ }
+  return kelvin + " K";
+}
+
+---------------------------------------------------------------------------------------------------------
+TASK 4:
+
+function findSmallest(){
+  var minValue=arguments[0];
+  for(var i=0;i<arguments.length;i++){
+    if(arguments[i]==null){
+      minValue = Number.MIN_VALUE;
+    }
+    else if(isNaN(parseInt(arguments[i]))){
+      minValue="Error!!!Please enter numbers or string only";
+      i=arguments.length;
+    }
+    else{
+      if(arguments[i] < minValue){
+        minValue=arguments[i];
+      }
+    }
+     
+  }
+    return minValue;
+}
+console.log(findSmallest(11,22,32));
+
+----------------------------------------------------------------------------------------------------------
+TASK 5:
+
+var oddNumbers = function (){
+  
+   var oddNum='';
+   var testVar ='';
+  
+    for(var i=0;i<arguments.length;i++){
+              if(!isNaN(parseInt(arguments[i]))){
+                      if(arguments[i]%2 == 1){
+                            oddNum+=arguments[i];
+                       
+                         if(i+1 != arguments.length ){
+                                   oddNum+=',';
+                         } 
+                         
+                      }
+            }                                    
+    }
+  
+      if(oddNum === testVar)
+      {
+         oddNum = null;
+      }
+return oddNum;
+}
+console.log(oddNumbers('a','b',1,2,3,'4',5,8,'9'));

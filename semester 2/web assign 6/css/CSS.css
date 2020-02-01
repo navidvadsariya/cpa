@@ -1,0 +1,47 @@
+h1, h3{
+    text-align: center;
+    text-decoration: underline;
+}
+body{
+    background-image: url("images/backgroundImg.jpg")
+}
+.button {
+    padding: 1px 1px;
+    font-size: 24px;
+    cursor: grab;
+    outline: none;
+    color: #ffffff;
+    background-color: grey;
+    border: none;
+    border-radius: 10px;
+  }
+.button:active {
+  transform: translateY(4px);
+ }
+ #signIn{
+    text-align: center;
+ }
+#footer {
+    width: 100%;
+    background-color:grey;
+    color: #ffffff;
+    text-align: center;
+    left: 0;
+   bottom: 0;
+   position: fixed;
+   text-align: center;
+   padding: 10px;
+}
+
+.center {
+    margin: auto;
+    width: 30%;
+    border:  6px dotted grey;
+    padding: 10px;
+}
+.para{
+    font-weight: bold; 
+}
+div.error{
+color:#ff0000;
+}
